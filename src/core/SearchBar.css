@@ -1,0 +1,17 @@
+.search-panel {
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.search-panel .search-tabs {
+    width: 33%;
+    margin: 0px 15px;
+}
+
+.search-panel .MuiButton-containedPrimary {
+    color: #fff;
+    background-color: #f78b08;
+}

@@ -1,0 +1,37 @@
+.movie-modal-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.movie-modal-container .movie-poster {
+    width: 130px;
+    min-width: 130px;
+    height: 190px;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+    background-color: white;
+}
+
+.movie-modal-container .movie-poster .poster {
+    width: 120px;
+    height: 180px;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.movie-modal-container .movie-modal-detail {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    min-width: 400px;
+    padding-left: 10px;
+}
+
+.movie-modal-container .movie-modal-detail .movie-data {
+    font-size: 16px;
+    width: 100%;
+}

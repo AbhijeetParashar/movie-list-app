@@ -1,0 +1,9 @@
+.detail-container .movie-modal-container{
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    margin: 0 auto;
+}
+.detail-container .movie-poster{
+    height: 208px;
+}
